@@ -1,6 +1,6 @@
 {
   "name": "playwright-devtools-mcp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "MCP сервер для управления браузером через Playwright",
   "type": "module",
   "main": "index.js",
