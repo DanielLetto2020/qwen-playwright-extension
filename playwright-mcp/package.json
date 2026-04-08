@@ -1,0 +1,18 @@
+{
+  "name": "playwright-devtools-mcp",
+  "version": "1.1.0",
+  "description": "MCP сервер для управления браузером через Playwright",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Tests not included in minimal version'"
+  },
+  "keywords": ["mcp", "playwright", "browser", "automation"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "playwright": "^1.58.2",
+    "zod": "^3.25.76"
+  }
+}

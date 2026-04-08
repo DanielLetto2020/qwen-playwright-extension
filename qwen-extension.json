@@ -1,0 +1,16 @@
+{
+  "name": "qwen-playwright-extension",
+  "version": "1.1.0",
+  "description": "Playwright DevTools MCP для Qwen Code - управление браузером через Playwright",
+  "mcpServers": {
+    "playwright-devtools": {
+      "command": "node",
+      "args": ["${extensionPath}${/}playwright-mcp${/}index.js"],
+      "cwd": "${extensionPath}${/}playwright-mcp",
+      "env": {
+        "PLAYWRIGHT_BROWSERS_PATH": "0"
+      }
+    }
+  },
+  "contextFileName": "QWEN.md"
+}
